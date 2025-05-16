@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dfegee - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://images.pexels.com/photos/1704122/pexels-photo-1704122.jpeg');
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about, .services, .testimonials, .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .about img, .services img, .testimonials img {
+            border: 5px solid #ddd;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+        }
+        .testimonial-item {
+            text-align: center;
+            padding: 15px;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                height: 40vh;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>dfegee</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Contact Us</h2>
+    </section>
+    <main>
+        <section class="section about">
+            <h2>About dfegee</h2>
+            <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg" alt="Restaurant interior">
+            <p>dfegee is a culinary oasis in the heart of the city, where tradition meets innovation. Our mission is to provide a dining experience that delights all the senses, featuring a menu crafted from the finest ingredients. Catering to food enthusiasts and casual diners alike, our restaurant offers a welcoming atmosphere for all.</p>
+            <p>Our audience ranges from local foodies to international travelers seeking a taste of authenticity and creativity. We believe in the power of food to bring people together and create lasting memories.</p>
+        </section>
+        <section class="section services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div>
+                    <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg" alt="Gourmet meal">
+                    <h3>Gourmet Dining</h3>
+                    <p>Indulge in our exquisite menu, crafted from the finest seasonal ingredients.</p>
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/1282308/pexels-photo-1282308.jpeg" alt="Private events">
+                    <h3>Private Events</h3>
+                    <p>Host your special occasion in our elegant private dining room.</p>
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/1721939/pexels-photo-1721939.jpeg" alt="Culinary classes">
+                    <h3>Culinary Classes</h3>
+                    <p>Learn from our expert chefs in a hands-on cooking class.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-item">
+                <img src="https://images.pexels.com/photos/1543794/pexels-photo-1543794.jpeg" alt="Customer testimonial">
+                <p>"An unforgettable dining experience! The flavors were incredible and the service was impeccable." - Jane Doe</p>
+            </div>
+            <div class="testimonial-item">
+                <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg" alt="Customer testimonial">
+                <p>"dfegee is my go-to spot for a romantic dinner. The ambiance and food are unmatched." - John Smith</p>
+            </div>
+        </section>
+        <section class="section contact">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Please reach out with any questions or to make a reservation.</p>
+            <ul class="fa-ul">
+                <li><i class="fa-li fa fa-phone"></i> +1 (234) 567-890</li>
+                <li><i class="fa-li fa fa-envelope"></i> contact@dfegee.com</li>
+                <li><i class="fa-li fa fa-map-marker"></i> 123 Culinary Lane, Food City</li>
+            </ul>
+            <h3>Connect with us</h3>
+            <p>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 dfegee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
